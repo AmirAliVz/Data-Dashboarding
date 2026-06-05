@@ -34,8 +34,8 @@
           <member value='&quot;State&quot;' />
         </members>
       </column>
-      <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;Asthma&quot;'>
-        <calculation class='tableau' formula='&quot;Asthma&quot;' />
+      <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;BackPain&quot;'>
+        <calculation class='tableau' formula='&quot;BackPain&quot;' />
         <members>
           <member value='&quot;Diabetes&quot;' />
           <member value='&quot;Asthma&quot;' />
@@ -75,8 +75,8 @@
           <member value='&quot;Income&quot;' />
         </members>
       </column>
-      <column alias='8. Evidence of active listening from doctor' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Evidence of active listening from doctor&quot;'>
-        <calculation class='tableau' formula='&quot;Evidence of active listening from doctor&quot;' />
+      <column alias='6. Hours of Treatment' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Hours of Treatment&quot;'>
+        <calculation class='tableau' formula='&quot;Hours of Treatment&quot;' />
         <aliases>
           <alias key='&quot;Courteous Staff&quot;' value='7. Courteous Staff' />
           <alias key='&quot;Evidence of active listening from doctor&quot;' value='8. Evidence of active listening from doctor' />
@@ -1909,8 +1909,8 @@
         <column caption='Geographic Level' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;State&quot;'>
           <calculation class='tableau' formula='&quot;State&quot;' />
         </column>
-        <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;Asthma&quot;'>
-          <calculation class='tableau' formula='&quot;Asthma&quot;' />
+        <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;BackPain&quot;'>
+          <calculation class='tableau' formula='&quot;BackPain&quot;' />
         </column>
         <column caption='Hospitalization Information' datatype='string' name='[Parameter 3]' param-domain-type='list' role='measure' type='nominal' value='&quot;Services&quot;'>
           <calculation class='tableau' formula='&quot;Services&quot;' />
@@ -1918,8 +1918,8 @@
         <column caption='Patient Demographics' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Age&quot;'>
           <calculation class='tableau' formula='&quot;Age&quot;' />
         </column>
-        <column alias='8. Evidence of active listening from doctor' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Evidence of active listening from doctor&quot;'>
-          <calculation class='tableau' formula='&quot;Evidence of active listening from doctor&quot;' />
+        <column alias='6. Hours of Treatment' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Hours of Treatment&quot;'>
+          <calculation class='tableau' formula='&quot;Hours of Treatment&quot;' />
           <aliases>
             <alias key='&quot;Courteous Staff&quot;' value='7. Courteous Staff' />
             <alias key='&quot;Evidence of active listening from doctor&quot;' value='8. Evidence of active listening from doctor' />
@@ -2317,8 +2317,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;Asthma&quot;'>
-              <calculation class='tableau' formula='&quot;Asthma&quot;' />
+            <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;BackPain&quot;'>
+              <calculation class='tableau' formula='&quot;BackPain&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0v69dea1jgp9s410dudc202bnpq1'>
@@ -2916,8 +2916,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column alias='8. Evidence of active listening from doctor' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Evidence of active listening from doctor&quot;'>
-              <calculation class='tableau' formula='&quot;Evidence of active listening from doctor&quot;' />
+            <column alias='6. Hours of Treatment' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Hours of Treatment&quot;'>
+              <calculation class='tableau' formula='&quot;Hours of Treatment&quot;' />
               <aliases>
                 <alias key='&quot;Courteous Staff&quot;' value='7. Courteous Staff' />
                 <alias key='&quot;Evidence of active listening from doctor&quot;' value='8. Evidence of active listening from doctor' />
@@ -3075,8 +3075,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column alias='8. Evidence of active listening from doctor' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Evidence of active listening from doctor&quot;'>
-              <calculation class='tableau' formula='&quot;Evidence of active listening from doctor&quot;' />
+            <column alias='6. Hours of Treatment' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Hours of Treatment&quot;'>
+              <calculation class='tableau' formula='&quot;Hours of Treatment&quot;' />
               <aliases>
                 <alias key='&quot;Courteous Staff&quot;' value='7. Courteous Staff' />
                 <alias key='&quot;Evidence of active listening from doctor&quot;' value='8. Evidence of active listening from doctor' />
@@ -3176,8 +3176,8 @@
             <member value='&quot;State&quot;' />
           </members>
         </column>
-        <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;Asthma&quot;'>
-          <calculation class='tableau' formula='&quot;Asthma&quot;' />
+        <column caption='Patient Condition' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;BackPain&quot;'>
+          <calculation class='tableau' formula='&quot;BackPain&quot;' />
           <members>
             <member value='&quot;Diabetes&quot;' />
             <member value='&quot;Asthma&quot;' />
@@ -3217,8 +3217,8 @@
             <member value='&quot;Income&quot;' />
           </members>
         </column>
-        <column alias='8. Evidence of active listening from doctor' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Evidence of active listening from doctor&quot;'>
-          <calculation class='tableau' formula='&quot;Evidence of active listening from doctor&quot;' />
+        <column alias='6. Hours of Treatment' caption='Survey Items' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;Hours of Treatment&quot;'>
+          <calculation class='tableau' formula='&quot;Hours of Treatment&quot;' />
           <aliases>
             <alias key='&quot;Courteous Staff&quot;' value='7. Courteous Staff' />
             <alias key='&quot;Evidence of active listening from doctor&quot;' value='8. Evidence of active listening from doctor' />
@@ -3735,7 +3735,7 @@
     </dashboard>
   </dashboards>
   <windows show-side-pane='false' source-height='30'>
-    <window class='worksheet' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='231'>
@@ -3799,7 +3799,7 @@
       </viewpoint>
       <simple-id uuid='{02F94D2E-85E0-4BA7-8CC6-0E8F050D2C9F}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 3'>
+    <window class='worksheet' name='Sheet 3'>
       <cards>
         <edge name='left'>
           <strip size='276'>
@@ -4015,7 +4015,7 @@
         </viewpoint>
         <viewpoint name='Sheet 9' />
       </viewpoints>
-      <active id='56' />
+      <active id='-1' />
       <simple-id uuid='{7D625FD8-2D1E-4328-AAF3-DA4E62DAB1BC}' />
     </window>
   </windows>
