@@ -4,8 +4,8 @@ An interactive Tableau dashboard built for executive leaders to explore hospital
 
 The goal is to make readmission patterns immediately readable by decision-makers who need to act on them — not by analysts who built them.
 
-> **Note on Dataset Availability**
-> The underlying patient dataset has been removed from this repository as it contains sensitive medical and personal information. The Tableau workbook (`.twbx`) with all visualizations is retained for presentation and portfolio purposes.
+> **Data & Privacy**
+> The Tableau workbook (.twbx) is included and ready to open in Tableau Desktop or Tableau Reader. Prior to analysis, the dataset was de-identified — all personally identifiable information (PII) was removed, leaving only anonymized clinical, demographic, and geographic fields. This is standard practice when working with medical records, ensuring insights can be shared without exposing individual patient data.
 
 | ![main](Screenshots/main.png) |
 
